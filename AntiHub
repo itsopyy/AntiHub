@@ -1,0 +1,221 @@
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+ 
+local win = Flux:Window("Antihub", "feds.lol/ghosted ", Color3.fromRGB(190, 250, 255), Enum.KeyCode.LeftControl)
+ 
+local tab = win:Tab("Home", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Button("Hub By: ghosted ", "Main Person Who made The Hub", function()
+Flux:Notification("Yeah That's me!", "Alright")
+end)
+ 
+tab:Button("go to feds.lol/ghosted", "website added to clipboard :)", function()
+Flux:Notification("feds.lol/ghosted", "Alright")
+end)
+ 
+tab:Slider("Walkspeed", "Makes your faster.", 0, 100,16,function(t)
+print(t)
+end)
+ 
+tab:Button("Netless v1", "May Break If Used", function()
+Flux:Notification("Successfully executed Netless!", "Alright")
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()end)
+ 
+tab:Button("Client F3X", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()end)
+ 
+tab:Colorpicker("ESP Color", Color3.fromRGB(255,1,1), function(t)
+print(t)
+end)
+ 
+tab:Bind("Change Keybind", Enum.KeyCode.Q, function()
+print("Killed a random person!")
+end)
+ 
+local tab = win:Tab("Visualizer", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Button("Verts Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet('https://pastebin.com/raw/xSAW2uX0'))()end) 
+ 
+tab:Button("Error-Log Vis", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Errorlog-s-Boombox-Visualizer-Crack/main/Error's%20Boombox%20Vis%20Main.lua"))("Enviie Soo Hot!")end)
+ 
+tab:Button("Fish Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet('https://pastebin.com/raw/6y5Tqvx7'))()
+end)
+ 
+tab:Button("Lucious-Ware Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vyks/vyks/main/PremiumLucious.lua"))()end)
+ 
+tab:Button("Aux Pineapple Hub 2", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vyks/vyks/main/AuxPineapple2.lua"))()end)
+ 
+tab:Button("Fanta Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vyks/vyks/main/FantaHub2.lua"))()end)
+ 
+tab:Button("Space Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vyks/vyks/main/SpaceHub.lua"))()end)
+ 
+tab:Button("Hash Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Lucious-Ware/main/hashub.txt",true))()
+end)
+ 
+tab:Button("Asset-Ware Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ggrimmed/Lucious-Ware/main/assetware.lua"))()
+end)
+ 
+tab:Button("Fanta-Hub 2", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kyakuryc/fanta-hub/main/fanta_hub_raw.txt",true))()
+end)
+ 
+tab:Button("Cypher X Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://github.com/ggrimmed/Boombox-Reaper/blob/main/Cypher_X.lua.txt", true))()
+end)
+ 
+local tab = win:Tab("Hubs", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Button("Arsenal  Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://pastebin.com/raw/pQuszs6d", true))()end)
+ 
+tab:Button("Owl Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();end)
+ 
+tab:Button("HoHo Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()end)
+ 
+tab:Button("Pet Simulator X Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+local link, response = pcall(game.HttpGet, game, string.reverse'aul.niaM/ihcati/113vbuhretsam/lolytsed/moc.tnetnocresubuhtig.war//:sptth', true)
+if not link then return error("Failed to access raw") end
+local loads, err = coroutine.create(loadstring(response, '@desty#1821', '@GramxPersons#1111'))
+if not loads then return error('Failed to load response') end
+coroutine.resume(loads)end)
+ 
+tab:Button("Clicker Simulator Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()end)
+ 
+tab:Button("Arsenal Hub v2", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()end)
+ 
+tab:Button("Fe Fly Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()end)
+ 
+tab:Button("Doors Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()end)
+ 
+tab:Button("UTG Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()end)
+ 
+local tab = win:Tab("Scripts", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Button("Walk On Walls Script", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RY9cBbdG"))()end)
+ 
+tab:Button("Keyboard Script", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()end)
+ 
+tab:Button("Pendulum Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()end)
+ 
+tab:Button("Proxima Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()end)
+ 
+tab:Button("Moon Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))()end)
+ 
+tab:Button("Gelatek Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()end)
+ 
+tab:Button("Ez Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()end)
+ 
+tab:Button("Ray-X Script Hub", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()end)
+ 
+ 
+ tab = win:Tab("Fe Animations", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Button("Among Us", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()end)
+ 
+tab:Button("Gale", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGet("https://pastebin.com/raw/PjJNLaFa", true))()end)
+ 
+tab:Button("Sonic", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()end)
+ 
+tab:Button("KillBot", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/G24tcRXA"))()end)
+ 
+tab:Button("Neko Maid", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://paste.ee/d/iCtCM/0"))()end)
+ 
+tab:Button("Smug Dance", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZuKy7HFF"))()end)
+ 
+tab:Button("Shadow Blade", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/kMYThpNG"))()end)
+ 
+tab:Button("Fishing Rod", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Wp8C1bi7"))()end)
+ 
+tab:Button("Neptunion V", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()end)
+ 
+tab:Button("RB Neptunion", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gDi503fB"))()end)
+ 
+tab:Button("Cop", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/VAA5Mf60"))()end)
+ 
+tab:Button("Crystal Dance", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/FV3HLmTH"))()end)
+ 
+tab:Button("Take The L", "Main Person Who made The Hub", function()
+Flux:Notification("Executed Successfully", "Alright")
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/VkWkuyzc"))()end)
+ 
+tab = win:Tab("ChangeLog", "http://www.roblox.com/asset/?id=6023426915")
+ 
+tab:Label("12/29/22: Added Script And GUI")
+ 
+ setclipboard("feds.lol/ghosted")
